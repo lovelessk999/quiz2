@@ -1,0 +1,16 @@
+<h1>Welcome#index</h1>
+<p>Find me in app/views/welcome/index.html.erb</p>
+
+
+
+<% @vehicles.each do |vehicle| %>
+  <div>
+    <h1><%= vehicle.name %></h1>
+    <br />
+    <p><%= vehicle.description %></p>
+    <br />
+  </div>
+
+
+  <hr />
+  <% end %>
